@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<Style>
+	/*  body li{    자손선택자 
+		color : red;
+	}  */
+	
+	/* ul > li {    자식선택자  
+		color : red;
+	}  */
+	
+/* 	ul + ol {       형제선택자
+		color : yellow;
+	} */
+	
+/* 	li + li {
+		color : red;
+	} */
+	
+ /* 	ul > li:nth-child(2) {   ul에서 두번째 li 색깔 바꾸기 
+		color : blue;
+	} */
+	 
+	 
+	li, span{ /* 여러개선택 */
+		color : red;
+	}
+</Style>
+	
+	
+</head>
+<body>
+	<ul>
+		<li id = "p">쉬는 시간에 5분정도 먼 곳을 바라본다.</li>
+		<li>1시간마다 스트레칭을 한다.</li>
+		<li>거북목이 되지 않도록 목을 편다</li>
+	</ul>
+	
+	<ol>
+		<li class = "c">지각하지 않기</li>
+		<li class = "c">결석하지 않기</li>
+		<span>(불가피할 땐 꼭 담당연구원에게 미리 말하기)</span>
+		<li class = "c">복습하기</li>
+	</ol>
+	
+	<ol>
+		<li> 놀땐 놀고 할땐 하자</li>
+	</ol>
+</body>
+</html>
