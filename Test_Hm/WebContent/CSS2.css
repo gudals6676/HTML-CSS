@@ -1,0 +1,30 @@
+@charset "EUC-KR";
+
+		#div1{		
+		background-color : beige;
+		height : 100px;				
+	}
+		#div2{		
+		background-color : purple;
+		height : 300px;
+		width : 100px;
+		float: left;				  		
+	}
+		#div3{		
+		background-color : yellow;
+		height : 300px;
+		width: 300px; 
+		float: left;
+		
+				
+	}
+		#div4{		
+		background-color : steelblue;
+		height : 300px;
+		width : 100px
+		line-height: 150px						
+	}
+		#div5{		
+		background-color : pink;
+		height : 100px;								
+	}
